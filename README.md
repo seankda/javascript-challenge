@@ -1,4 +1,5 @@
 # JavaScript Homework - JavaScript and DOM Manipulation
+* [View Webpage](https://seankda.github.io/javascript-challenge/)
 
 ## Background
 
