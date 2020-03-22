@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>UFO Finder</title>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
@@ -11,6 +12,9 @@
 </head>
 
 <body>
+  <audio controls autoplay>
+    <source src="https://www.soundboard.com/handler/DownLoadTrack.ashx?cliptitle=Illuminati+Song+Full+(The+X-Files+Theme)&filename=22/223563-ab9c93b0-a7f7-4acb-adcd-29e396127329.mp3" type="audio/ogg">
+  </audio>
   <div class="wrapper">
     <nav class="navbar navbar-default">
       <div class="container-fluid">
@@ -30,18 +34,22 @@
         <div class="col-md-2">
           <aside class="filters">
             <div class="panel panel-default">
-              <div class="panel-heading">Filter Search</div>
+              <div class="panel-heading">
+                <center>Filter Search</center>
+              </div>
               <div class="panel-body">
                 <form>
                   <div class="form-group">
                     <ul class="list-group" id="filters">
                       <li class="filter list-group-item">
-                        <label for="date">Enter a Date</label>
-                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                        <center><label for="date">Enter a Date</label></center>
+                        <input class="form-control" id="datetime" type="text" placeholder="1/26/1991">
                       </li>
                     </ul>
                   </div>
-                  <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                  <center><button id="filter-btn" type="button" class="btn btn-default">Filter Deez UFOs</button>
+                  </center>
+                  <center><button id="reset-btn" type="button" class="btn btn-default">Reset table</button></center>
                 </form>
               </div>
             </div>

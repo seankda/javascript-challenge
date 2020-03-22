@@ -1,4 +1,13 @@
 var data = [{
+  datetime: "1/26/1991",
+  city: "west covina",
+  state: "ca",
+  country: "us",
+  shape: "tesla cybertruck",
+  durationMinutes: "60 minutes",
+  comments: "A sentient Tesla Cybertruck swapped babies at the hospital. Baby goes by Sean Del Alcazar."
+},
+  {
     datetime: "1/1/2010",
     city: "benton",
     state: "ar",
